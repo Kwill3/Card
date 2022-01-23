@@ -4,12 +4,14 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "browser-sync start --server \".\" --files \".\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.7",
     "jest": "^27.4.7"
   }
 }
