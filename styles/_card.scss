@@ -9,6 +9,13 @@
     border-radius: 16px;
     position: relative;
     margin: 2rem;
+    box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.8s ease;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.5);
+    }
     &-image {
         height:200px;
         width: 400px;
