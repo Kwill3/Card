@@ -1,10 +1,12 @@
 .card {
   background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 500px;
   border-radius: 16px;
   position: relative;
-  margin: 3rem;
+  margin: 2rem;
 }
 .card-image {
   height: 200px;
@@ -13,36 +15,43 @@
 }
 .card-main {
   margin: 0 2rem 0 2rem;
+  height: 240px;
+  flex-shrink: 0;
   text-align: center;
   position: relative;
   z-index: 1;
-  top: -40px;
+  top: -20px;
 }
 .card-main-price {
   background-color: #ff9100;
   color: #f7f7f7;
-  padding: 7px;
-  margin: 0 140px 0 140px;
+  font-size: 0.9em;
+  width: 50px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card-main-header {
-  font-size: 21px;
-  padding: 30px 0 10px 0;
+  font-size: 1em;
+  padding: 1.3em 0 0.5em 0;
 }
 .card-main-description {
-  font-size: 15px;
+  font-size: 0.8em;
   font-family: "Work Sans";
-  padding: 5px 0 5px 0;
+  padding: 0.3em 0 0.3em 0;
 }
 .card-footer {
+  height: 60px;
+  padding: 0.3em;
+  flex-shrink: 0;
   text-align: center;
-  padding: 3px;
   border-top: #222121 solid 1px;
 }
 .card-footer-value {
-  font-size: 18px;
+  font-size: 0.9em;
 }
 .card-footer-lessons {
-  font-size: 15px;
+  font-size: 0.7em;
   font-family: "Work Sans";
 }
 
