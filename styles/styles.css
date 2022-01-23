@@ -1,0 +1,61 @@
+.card {
+  background: #f7f7f7;
+  width: 400px;
+  height: 500px;
+  border-radius: 16px;
+  position: relative;
+  margin: 3rem;
+}
+.card-image {
+  height: 200px;
+  width: 400px;
+  border-radius: 15px 15px 0 0;
+}
+.card-main {
+  margin: 0 2rem 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  top: -40px;
+}
+.card-main-price {
+  background-color: #ff9100;
+  color: #f7f7f7;
+  padding: 7px;
+  margin: 0 140px 0 140px;
+}
+.card-main-header {
+  font-size: 21px;
+  padding: 30px 0 10px 0;
+}
+.card-main-description {
+  font-size: 15px;
+  font-family: "Work Sans";
+  padding: 5px 0 5px 0;
+}
+.card-footer {
+  text-align: center;
+  padding: 3px;
+  border-top: #222121 solid 1px;
+}
+.card-footer-value {
+  font-size: 18px;
+}
+.card-footer-lessons {
+  font-size: 15px;
+  font-family: "Work Sans";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222121;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}/*# sourceMappingURL=styles.css.map */
